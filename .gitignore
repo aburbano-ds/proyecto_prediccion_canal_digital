@@ -1,0 +1,111 @@
+# ===============================
+# Python general
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ===============================
+# Entornos virtuales
+# ===============================
+venv/
+env/
+.venv/
+.env/
+.Python
+
+# ===============================
+# Archivos temporales del sistema
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Archivos de configuración local
+# ===============================
+*.env
+*.ini
+*.cfg
+*.toml
+*.yaml
+*.yml
+*.json
+
+# ===============================
+# Archivos intermedios o de datos
+# ===============================
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
+*.feather
+*.h5
+*.pickle
+*.pkl
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.gz
+*.tar
+*.log
+*.tmp
+*.bak
+
+# ===============================
+# Notebooks
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# IDEs y editores
+# ===============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ===============================
+# Distribución / build
+# ===============================
+build/
+dist/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+site/
+
+# ===============================
+# Modelos entrenados / binarios
+# ===============================
+*.model
+*.pt
+*.pth
+*.h5
+*.onnx
+*.sav
+*.joblib
+models/
+checkpoints/
+
+# ===============================
+# Otros archivos locales
+# ===============================
+*.ipynb_checkpoints
+*.out
+*.dat
+*.swp
