@@ -10,8 +10,22 @@ Detectar anticipadamente qué clientes utilizarán el canal DIGITAL en su siguie
 - Fomentar la retención en el canal digital.
 - Optimizar esfuerzos comerciales.
 
-Se modelan las **transiciones entre canales** usando información histórica a nivel de pedido, sin fuga de información.
+## Enfoque Utilizado
 
+Se exploraron diferentes modelos de clasificacion binaria y multiclase para modelar el problema.
+
+- Enfoque 1: Target binaria con el ultimo canal del cliente (digital o no digital )como objetivo de prediccion
+- Enfoque 2: Target multicalse con el cambio de estado del ultimo canal del cliente como objetivo de prediccion
+- Enfoque 3: Targte multiclase con el estado de transicion de cada pedido del cliente como objetivo de prediccion
+
+## Principales Hallazgos
+- Enfoque 3  obtienne los mejores resultados, aprovechando toda la información y separando adecuadamente las clases
+- Segmentacion de madurez tiene alto impacto en los modelos analizados
+
+## Limitaciones y Posibles Mejoras
+- Métricas del modelo son adecuadas pero pueden ser optimizadas con mejores features
+- Porbar otros enfoques de modelamiento como LSTM
+- 
 ## Estructura del Proyecto
 
 - Project/
